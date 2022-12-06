@@ -1,0 +1,19 @@
+{
+    "products":[
+        {"name":"Dress1" , "slaePrestange":50 ,"rate":4  ,"priceAfter":150 , "priceBefore":400 },
+        {"name":"Dress2" , "slaePrestange":70 ,"rate":5  ,"priceAfter":200 , "priceBefore":700 },
+        {"name":"Dress3" , "slaePrestange":20 ,"rate":3  ,"priceAfter":300 , "priceBefore":500 },
+        {"name":"Dress4" , "slaePrestange":10 ,"rate":5  ,"priceAfter":500 , "priceBefore":100 },
+        {"name":"Dress5" , "slaePrestange":80 ,"rate":1  ,"priceAfter":100 , "priceBefore":4000 }
+        
+   
+    ],
+    "catData": [
+        { "id":1, "categorieName": "Jellabiya", "num_of_pieces":100 },
+        { "id":2, "categorieName": "cloch", "num_of_pieces":500},
+        { "id":3, "categorieName": "abaya", "num_of_pieces":20},
+        { "id":4, "categorieName": "farasha", "num_of_pieces":70},
+        { "id":5, "categorieName": "sale upto 60%", "num_of_pieces":250 }
+      ]
+
+}
