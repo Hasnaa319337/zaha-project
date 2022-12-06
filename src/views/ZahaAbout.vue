@@ -30,10 +30,10 @@ export default {
   },
   methods: {
     aboutdata() {
-        axios({
-            method: "GET",
-            url: "https://backend.zahaaksa.com/api/general/settings",
-        })
+      axios({
+        method: "GET",
+        url: "/general/settings",
+      })
         .then((res) => {
           this.info = res.data.data.about;
           this.image = res.data.data.about_image;

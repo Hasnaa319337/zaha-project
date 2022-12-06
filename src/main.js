@@ -15,11 +15,17 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 
-
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
+// const instance = axios.create({
+//     baseURL: 'https://some-domain.com/api/',
 
+//     headers: {'X-Custom-Header': 'foobar'}
+//   });
+
+axios.defaults.baseURL='https://backend.zahaaksa.com/api'
+// axios.defaults.headers
 
 
 import "bootstrap/dist/css/bootstrap.css";
