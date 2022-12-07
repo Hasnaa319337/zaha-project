@@ -29,10 +29,12 @@ export default {
     };
   },
   methods: {
-    aboutdata() {
+    getAboutData() {
+
       axios({
         method: "GET",
         url: "/general/settings",
+      data:
       })
         .then((res) => {
           this.info = res.data.data.about;
@@ -46,7 +48,7 @@ export default {
   },
 
   created() {
-    this.aboutdata();
+    this.getAboutData();
   },
 };
 </script>
