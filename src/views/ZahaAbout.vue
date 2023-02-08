@@ -30,11 +30,9 @@ export default {
   },
   methods: {
     getAboutData() {
-
       axios({
         method: "GET",
         url: "/general/settings",
-      data:
       })
         .then((res) => {
           this.info = res.data.data.about;
